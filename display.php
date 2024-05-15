@@ -52,7 +52,7 @@ bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
                 <td>'.$password.'</td>
                 <td>
                 <button class="btm btn-primary"><a href="update.php"class="text-light">Update</a></button>
-                <button class="btn btn-danger"><a href="delete.php"class="text-light">Delete</a></button>
+                <button class="btn btn-danger"><a href="delete.php? deleteteid='.$id.' "class="text-light">Delete</a></button>
 
                 </td>
                </tr>';

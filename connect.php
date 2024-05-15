@@ -3,7 +3,7 @@
 $con=new mysqli('localhost','root','',
 'crudoperation');
 
-if($con){
+if(!$con){
     echo "Connection succesfull";
 }
 else{
